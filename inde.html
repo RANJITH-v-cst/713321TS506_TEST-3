@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Application Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Job Application Platform</h1>
+      <nav>
+        <ul>
+          <li><a href="#jobs">Jobs</a></li>
+          <li><a href="jobDomains.html">Job Domains</a></li>
+          <li><a href="#apply">Apply</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+<section id="jobs" class="section">
+    <div class="container">
+      <h2>Available Jobs</h2>
+  
+      <div class="job-card">
+        <img src="https://via.placeholder.com/150?text=Frontend+Dev" alt="Frontend Developer">
+        <h3>Frontend Developer</h3>
+        <p>Company: Tech Innovators</p>
+        <p>Location: Remote</p>
+        <p>Skills: HTML, CSS, JavaScript, React</p>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+  
+      <div class="job-card">
+        <img src="https://via.placeholder.com/150?text=Backend+Dev" alt="Backend Developer">
+        <h3>Backend Developer</h3>
+        <p>Company: CodeCraft Inc.</p>
+        <p>Location: New York, NY</p>
+        <p>Skills: Node.js, Express, MongoDB</p>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+  
+      <div class="job-card">
+        <img src="https://via.placeholder.com/150?text=Mechanical+Engineer" alt="Mechanical Engineer">
+        <h3>Mechanical Engineer</h3>
+        <p>Company: AutoTech Solutions</p>
+        <p>Location: Detroit, MI</p>
+        <p>Skills: AutoCAD, SolidWorks, Product Design</p>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+  
+      <div class="job-card">
+        <img src="https://via.placeholder.com/150?text=Electrical+Engineer" alt="Electrical Engineer">
+        <h3>Electrical Engineer</h3>
+        <p>Company: EnergyPlus</p>
+        <p>Location: Houston, TX</p>
+        <p>Skills: Power Systems, Circuit Design, MATLAB</p>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+ 
+      <div class="job-card">
+        <img src="https://via.placeholder.com/150?text=Full+Stack+Dev" alt="Full Stack Developer">
+        <h3>Full Stack Developer</h3>
+        <p>Company: WebWorks</p>
+        <p>Location: San Francisco, CA</p>
+        <p>Skills: JavaScript, Python, PostgreSQL</p>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+  
+      
+      <div class="job-card">
+        <img src="https://via.placeholder.com/150?text=Data+Scientist" alt="Data Scientist">
+        <h3>Data Scientist</h3>
+        <p>Company: DataCorp</p>
+        <p>Location: Chicago, IL</p>
+        <p>Skills: Python, R, Machine Learning</p>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+
+      <div class="job-card">
+        <img src="https://via.placeholder.com/150?text=DevOps+Engineer" alt="DevOps Engineer">
+        <h3>DevOps Engineer</h3>
+        <p>Company: CloudWorks</p>
+        <p>Location: Seattle, WA</p>
+        <p>Skills: Docker, Kubernetes, AWS</p>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+  
+     
+      <div class="job-card">
+        <img src="https://via.placeholder.com/150?text=Marketing+Manager" alt="Marketing Manager">
+        <h3>Marketing Manager</h3>
+        <p>Company: BrandBoosters</p>
+        <p>Location: Los Angeles, CA</p>
+        <p>Skills: SEO, Content Strategy, Digital Marketing</p>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+  
+  
+      <div class="job-card">
+        <img src="https://via.placeholder.com/150?text=Project+Manager" alt="Project Manager">
+        <h3>Project Manager</h3>
+        <p>Company: ConstructCo</p>
+        <p>Location: Austin, TX</p>
+        <p>Skills: Agile, Scrum, Team Leadership</p>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+  
+      <div class="job-card">
+        <img src="https://via.placeholder.com/150?text=HR+Specialist" alt="HR Specialist">
+        <h3>HR Specialist</h3>
+        <p>Company: PeopleFirst</p>
+        <p>Location: Miami, FL</p>
+        <p>Skills: Recruitment, Employee Relations, HRIS</p>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+  
+    </div>
+  </section>
+
+    <section id="apply" class="section">
+      <div class="container">
+        <h2>Apply for a Job</h2>
+        <form id="application-form">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="job">Job Title:</label>
+          <select id="job" name="job">
+            <option value="frontend">Frontend Developer</option>
+            <option value="backend">Backend Developer</option>
+            <option value="mechanical">Mechanical Engineer</option>
+            <option value="electrical">Electrical Engineer</option>
+          </select>
+
+          <label for="resume">Upload Resume:</label>
+          <input type="file" id="resume" name="resume" required>
+
+          <button type="submit">Submit Application</button>
+        </form>
+      </div>
+    </section>
+    <section id="contact" class="section bg-dark">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Email: support@jobplatform.com</p>
+        <p>Phone: +1 234 567 890</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Job Application Platform. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
